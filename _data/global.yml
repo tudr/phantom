@@ -4,7 +4,7 @@ description: "My theory is we can gain positive outcomes, together.  To test my 
 url: 'https://work.tudr.co' # the base hostname & protocol for your site
 #url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
 nav: "false"
-footer_text: '© 2016 Tudor Saitoc'
+footer_text: 'Copyright © 2016 Tudor Saitoc'
 twitter: 'tudorsnyc'
 github: 'tudr'
 medium: 'https://medium.com/@tudr'
