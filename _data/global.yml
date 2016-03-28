@@ -1,14 +1,16 @@
 # Site Settings
-title: "Hello. I'm Jami Gibbs."
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
-url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
-nav: "true"
-footer_text: '© 2016 Jami Gibbs'
-twitter: 'jamigibbs'
-github: 'jamigibbs'
-medium: 'blog.jamigibbs.com'
+title: "You know those precious moments when everything seems to work out?  "
+description: "I have a theory that accelerates the frequency of positive chain reactions occuring.  I'm hot pursuit of kind spirits with bright minds to help develop an environment to test this hypothesis."
+url: 'https://work.tudr.co' # the base hostname & protocol for your site
+#url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
+nav: "false"
+footer_text: '© 2016 Tudor Saitoc'
+twitter: 'tudorsnyc'
+github: 'tudr'
+medium: 'https://medium.com/@tudr'
 
 # Admin Settings
-admin_name: 'Jami Gibbs'
-admin_email: 'jami0821@gmail.com'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'Tudor Saitoc'
+admin_email: 'tudor@saitoc.me'
+
+# google_analytics: "UA-9999999-99" # Update with your own tracking ID
