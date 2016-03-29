@@ -1,3 +1,8 @@
 main:
-    - { url: '/', text: 'Home' }
+    - { url: '/', text: 'Latest Work' }
     - { url: '/about', text: 'About' }
+    - { url: '/blog', text: 'Blog' }
+    - { url: '/buzz', text: 'Buzz' } #references/case studies/what folks are saying
+    - { url: '/social', text: 'Social' }
+    - { url: '/play', text: 'Play' }
+    - { url: '/meet', text: 'Meet' }

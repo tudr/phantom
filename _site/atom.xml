@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Does everything work out?</title>
+ <link href="https://work.tudr.co/atom.xml" rel="self"/>
+ <link href="https://work.tudr.co/"/>
+ <updated>2016-03-28T23:01:58-04:00</updated>
+ <id>https://work.tudr.co</id>
+ <author>
+   <name>Tudor Saitoc</name>
+   <email>tudor@saitoc.me</email>
+ </author>
+
+ 
+ <entry>
+   <title>Phantom</title>
+   <link href="https://work.tudr.co/development/design/2016/02/20/phantom-jekyll-template.html"/>
+   <updated>2016-02-20T16:15:00-05:00</updated>
+   <id>https://work.tudr.co/development/design/2016/02/20/phantom-jekyll-template</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rescue Themes</title>
+   <link href="https://work.tudr.co/development/design/2016/02/20/rescue-themes.html"/>
+   <updated>2016-02-20T10:56:00-05:00</updated>
+   <id>https://work.tudr.co/development/design/2016/02/20/rescue-themes</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Weathercast</title>
+   <link href="https://work.tudr.co/development/2016/02/20/weathercast.html"/>
+   <updated>2016-02-20T10:56:00-05:00</updated>
+   <id>https://work.tudr.co/development/2016/02/20/weathercast</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bloc Jams Angular</title>
+   <link href="https://work.tudr.co/development/2016/02/20/bloc-jams-angular.html"/>
+   <updated>2016-02-20T09:15:00-05:00</updated>
+   <id>https://work.tudr.co/development/2016/02/20/bloc-jams-angular</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
