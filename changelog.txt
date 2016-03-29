@@ -1,4 +1,11 @@
-== Phantom Changelog ==
+== Work Changelog ==
+= To-do =
+* Progress bar
+* Nav
+
+= 1.02 - Mar 28, 2016 =
+* Update CNAME and DNS for custom domain
+* Add current work
 
 = 1.0.1 - Feb 24, 2016 =
 * Fixing Medium button conditional display
