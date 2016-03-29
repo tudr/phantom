@@ -24,7 +24,7 @@
           
 
           <div class="hero-buttons">
-
+<!--
             {% if site.data.global.twitter != '' %}
               <a href="https://twitter.com/{{ site.data.global.twitter }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
             {% endif %}
@@ -37,7 +37,19 @@
             {% if site.data.global.linkedin != '' %}
               <a href="https://linkedin.com/in/{{ site.data.global.linkedin }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
             {% endif %}
-
+-->
+            {% if site.data.global.twitter != '' %}
+              <a href="https://twitter.com/{{ site.data.global.twitter }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i></button></a>
+            {% endif %}
+            {% if site.data.global.github != '' %}
+              <a href="https://github.com/{{ site.data.global.github }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i></button></a>
+            {% endif %}
+            {% if site.data.global.medium != '' %}
+              <a href="https://medium.com/{{ site.data.global.medium }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i></button></a>
+            {% endif %}
+            {% if site.data.global.linkedin != '' %}
+              <a href="https://linkedin.com/in/{{ site.data.global.linkedin }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i></button></a>
+            {% endif %}
           </div>
 
         </div>
