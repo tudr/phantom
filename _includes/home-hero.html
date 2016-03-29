@@ -13,12 +13,14 @@
           {% endif %}
 
           {% if site.data.global.description != '' %}
-          <p class="text-center">{{site.data.global.description}} {% include contact.html %}</p>
+          <p class="text-center">{{site.data.global.description}}</p>
           {% endif %}
 
           <div class="hero-contact">
-          {% include contact-modal.html %}  
+            {% include contact.html %}
           </div>
+            
+          {% include contact-modal.html %}  
           
 
           <div class="hero-buttons">
