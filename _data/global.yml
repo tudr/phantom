@@ -1,9 +1,9 @@
 # Site Settings
-title: Does everything work out?
-description: 'Most don't feel like it does, however, it can if you want and I'll prove it.'
-url: 'https://work.tudr.co' # the base hostname & protocol for your site
+title: "Does everything work out?"
+description: "Most don't feel like it does, however, it can if you want and I'll prove it."
+url: "https://work.tudr.co" # the base hostname & protocol for your site
 nav: "true"
-footer_text: Copyright © 2016 Tudor Saitoc
+footer_text: "Copyright © 2016 Tudor Saitoc"
 
 # Social Icons
 twitter: 'tudorsnyc'
