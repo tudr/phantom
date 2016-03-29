@@ -1,16 +1,22 @@
 # Site Settings
-title: "Does everything work out?"
-description: "My theory is we can gain positive outcomes, together.  To test my hypothesis, need bright minds and kind spirits.  The pursuit is on!"
+title: Does everything work out?
+description: 'Most don't feel like it does, however, it can if you want and I'll prove it.'
 url: 'https://work.tudr.co' # the base hostname & protocol for your site
-#url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
-nav: "false"
-footer_text: 'Copyright © 2016 Tudor Saitoc'
+nav: "true"
+footer_text: Copyright © 2016 Tudor Saitoc
+
+# Social Icons
 twitter: 'tudorsnyc'
 github: 'tudr'
-medium: 'https://medium.com/@tudr'
+medium: '@tudr'
+linkedin: 'tudornyc'
 
 # Admin Settings
 admin_name: 'Tudor Saitoc'
 admin_email: 'tudor@saitoc.me'
 
+# Tracking
 # google_analytics: "UA-9999999-99" # Update with your own tracking ID
+
+# Other
+# url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site (local)
