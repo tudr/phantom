@@ -60,12 +60,14 @@ a {
   }
 }
 
-/*
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
+  -moz-box-shadow: 0 1px 3px
+  -webkit-box-shadow: 0 1px 3px
+  box-shadow: 0 1px 3px
   color: #2E4453;
   font-weight: 600;
   &:hover, &.btn-default:hover {
@@ -73,25 +75,7 @@ button.btn, input.btn {
     border: solid 1px #b0c5d2;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
-  }
-  */
-button.btn, input.btn {
-  padding: 12px 35px;
-  margin: 2em 0.5em;
-  border: solid 1px #d5e0e7;
-   -moz-box-shadow: 0 2px 0 #b0c5d2;
-   -webkit-box-shadow: 0 2px 0 #b0c5d2;
-  box-shadow: 0 2px 0 #b0c5d2;
-  border-radius: 4px;
-  color: #2E4453;
-  font-weight: 600;
-  &:hover, &.btn-default:hover {
-    background-color: white;
-    border: solid 1px #b0c5d2;
-    -moz-box-shadow: 0 5px 0 #b0c5d2;
-    -webkit-box-shadow: 0 5px 0 #b0c5d2;
-    box-shadow: 0 5px 0 #b0c5d2;
+    box-shadow: 0 10px 20px #b0c5d2;
   }
   i {
     padding-right: 0.5em;
