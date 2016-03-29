@@ -73,9 +73,9 @@ button.btn, input.btn {
   &:hover, &.btn-default:hover {
     background-color: white;
     border: solid 1px #b0c5d2;
-    -moz-box-shadow: 0 1px 0 #b0c5d2;
-    -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 10px 20px #b0c5d2;
+    -moz-box-shadow: 0 1px 10px #b0c5d2;
+    -webkit-box-shadow: 0 5px 10px #b0c5d2;
+    box-shadow: 0 5px 10px #b0c5d2;
   }
   i {
     padding-right: 0.5em;
