@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...sass/bootstrap'": expected "{", was ";"
+        on line 16 of ./css/style.scss
+
+11: 3.0 Posts
+12: 4.0 Footer
+13: 
+14: --------------------------------------------------------------*\/
+15: 
+16: @import '../_sass/bootstrap';
+17: @import '../_sass/mixins';
+18: 
+19: $primary: #0a0a0a;
+20: $secondary: #FF7B7B;
+21: 
+
+Backtrace:
+./css/style.scss:16
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...sass/bootstrap'\": expected \"{\", was \";\"\A         on line 16 of ./css/style.scss\A \A 11: 3.0 Posts\A 12: 4.0 Footer\A 13: \A 14: --------------------------------------------------------------*/\A 15: \A 16: @import '../_sass/bootstrap';\A 17: @import '../_sass/mixins';\A 18: \A 19: $primary: #0a0a0a;\A 20: $secondary: #FF7B7B;\A 21: "; }
